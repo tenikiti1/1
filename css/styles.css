@@ -1,0 +1,166 @@
+body {
+  color #333;
+  font-family: 'Times New Roman',sans-serif;
+  margin:0
+
+}
+
+header {
+  background-color: hsl(0, 0%, 94%);
+  padding-top: 5px;
+  padding-bottom: 0px;
+}
+
+.container {
+  background-color: pink;
+  width: 100%;
+  margin-left:20;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  position: fixed;
+}
+
+.icon {
+  background-color: royalblue;
+  margin-left: 5px;
+}
+
+.icon img{
+  /* border-radius: 20%; */
+  border-radius: 50%;
+  border-width: 4px;
+  border-style: solid;
+  border-color: black;
+}
+.otoiawase{
+  background-color: rgb(216, 118, 183);
+  width: 150px;
+  display: flex;
+  position: right;
+}
+.otoiawase > p {
+  margin: 0px;
+  margin-left: 3px;
+} 
+
+.otoiawase > img {
+  margin-left: 3px;
+}
+
+.info{
+  background-color: salmon;
+  margin-left: 5px;
+}
+
+.info h1{
+  font-weight: normal;
+  font-size: 12px;
+  margin: 0;
+}
+
+.info p {
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.info ul{
+  margin: 0;
+  padding:0;
+  list-style-type:none;
+  display: flex;
+}
+
+.info ul li{
+  margin-right: 8px;
+}
+
+.history{
+  background-color: darkgoldenrod;
+  display: flex;
+  overflow-wrap: break-word;
+}
+
+.first-car{
+  background-color: rgb(158, 243, 12);
+  margin: 5px;
+  lighting-color: darkorange;
+}
+.first-car > h1{
+  font-size: 12px;
+  text-align: left;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.first-car > h2{
+  font-size: 12px;
+  text-align: left;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.first-car > h3{
+  font-size: 12px;
+  text-align: left;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.second-car{
+  margin: 5px;
+}
+.second-car > h1{
+  font-size: 12px;
+  text-align: left;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.second-car > h2{
+  font-size: 12px;
+  text-align: left;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.third-car{
+  margin: 5px;
+}
+.third-car > h1{
+  font-size: 12px;
+  text-align: left;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.third-car > h2{
+  font-size: 12px;
+  text-align: left;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+
+
+
+
+.history > section{
+  margin-bottom: 60px;
+}
+
+.history p {
+  line-height: 0.5;
+}
+
+footer p {
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 60px;
+  color: gray;
+}
+
+
+
+
+
+
+
